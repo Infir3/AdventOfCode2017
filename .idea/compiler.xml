@@ -6,12 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AdventOfCode" />
         <module name="AdventOfCode2017" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AdventOfCode" target="1.5" />
       <module name="AdventOfCode2017" target="1.5" />
     </bytecodeTargetLevel>
   </component>
