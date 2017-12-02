@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e0ff7de-7275-4965-9962-ed593ac6568f" name="Default" comment="solve circular captcha">
+    <list default="true" id="8e0ff7de-7275-4965-9962-ed593ac6568f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Checksum.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/InverseCaptcha.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/InverseCaptchaTest.class" afterPath="$PROJECT_DIR$/target/test-classes/InverseCaptchaTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/InverseCaptcha.java" afterPath="$PROJECT_DIR$/src/main/java/InverseCaptcha.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdventOfCode2017.iml" afterPath="$PROJECT_DIR$/AdventOfCode2017.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/InverseCaptchaTest.java" afterPath="$PROJECT_DIR$/src/test/java/InverseCaptchaTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,18 +24,38 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InverseCaptcha.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InverseCaptcha.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/InverseCaptcha.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="119">
+              <caret line="7" column="80" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Checksum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Checksum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChecksumTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ChecksumTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -40,8 +64,8 @@
       <file leaf-file-name="InverseCaptchaTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/InverseCaptchaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+            <state relative-caret-position="-335">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,6 +98,8 @@
         <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="$PROJECT_DIR$/src/main/java/InverseCaptcha.java" />
         <option value="$PROJECT_DIR$/src/test/java/InverseCaptchaTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ChecksumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Checksum.java" />
       </list>
     </option>
   </component>
@@ -91,10 +117,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="2576" />
-    <option name="height" value="1416" />
+    <option name="x" value="-7" />
+    <option name="width" value="1294" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -113,6 +138,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -136,6 +162,13 @@
               <item name="AdventOfCode2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdventOfCode2017" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdventOfCode2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdventOfCode2017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -149,7 +182,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,6 +193,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -182,7 +215,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InverseCaptchaTest.solveCaptchaCircularPuzzle">
+  <component name="RunManager" selected="JUnit.ChecksumTest.calculateChecksumPuzzle">
+    <configuration name="ChecksumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="AdventOfCode2017" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ChecksumTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ChecksumTest.calculateChecksum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="AdventOfCode2017" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ChecksumTest" />
+      <option name="METHOD_NAME" value="calculateChecksum" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ChecksumTest.calculateChecksumPuzzle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="AdventOfCode2017" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ChecksumTest" />
+      <option name="METHOD_NAME" value="calculateChecksumPuzzle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="InverseCaptchaTest" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="AdventOfCode2017" />
@@ -192,26 +285,6 @@
       <option name="MAIN_CLASS_NAME" value="InverseCaptchaTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="InverseCaptchaTest.solveCaptcha1122" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="AdventOfCode" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InverseCaptchaTest" />
-      <option name="METHOD_NAME" value="solveCaptcha1122" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
@@ -356,17 +429,21 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.InverseCaptchaTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.InverseCaptchaTest.solveCaptcha1122" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.InverseCaptchaTest.solveCaptchaCircular1212" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.InverseCaptchaTest.solveCaptchaCircularPuzzle" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.InverseCaptchaTest.solveCaptchaCircular1212" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.InverseCaptchaTest.solveCaptchaCircularPuzzle" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ChecksumTest.calculateChecksum" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ChecksumTest.calculateChecksumPuzzle" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ChecksumTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.InverseCaptchaTest.solveCaptchaCircularPuzzle" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.InverseCaptchaTest.solveCaptchaCircular1212" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.InverseCaptchaTest.solveCaptcha1122" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ChecksumTest.calculateChecksumPuzzle" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ChecksumTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ChecksumTest.calculateChecksum" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.InverseCaptchaTest.solveCaptchaCircularPuzzle" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.InverseCaptchaTest.solveCaptchaCircular1212" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +459,8 @@
       <updated>1512121261350</updated>
       <workItem from="1512121265537" duration="3241000" />
       <workItem from="1512124750474" duration="734000" />
-      <workItem from="1512143680542" duration="2119000" />
+      <workItem from="1512143680542" duration="2142000" />
+      <workItem from="1512217014339" duration="3188000" />
     </task>
     <task id="LOCAL-00001" summary="remove old module name">
       <created>1512124814664</created>
@@ -391,57 +469,64 @@
       <option name="project" value="LOCAL" />
       <updated>1512124814664</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="solve circular captcha">
+      <created>1512146575006</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1512146575006</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InverseCaptchaTest - 2017.12.01 at 17h 38m 39s.xml">
+    <history-entry file="ChecksumTest - 2017.12.02 at 13h 56m 44s.xml">
+      <configuration name="ChecksumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChecksumTest_calculateChecksum - 2017.12.02 at 13h 33m 36s.xml">
+      <configuration name="ChecksumTest.calculateChecksum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChecksumTest_calculateChecksumPuzzle - 2017.12.02 at 13h 43m 35s.xml">
+      <configuration name="ChecksumTest.calculateChecksumPuzzle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChecksumTest_calculateChecksumPuzzle - 2017.12.02 at 13h 51m 00s.xml">
+      <configuration name="ChecksumTest.calculateChecksumPuzzle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChecksumTest_calculateChecksumPuzzle - 2017.12.02 at 13h 55m 17s.xml">
+      <configuration name="ChecksumTest.calculateChecksumPuzzle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChecksumTest_calculateChecksumPuzzle - 2017.12.02 at 13h 56m 18s.xml">
+      <configuration name="ChecksumTest.calculateChecksumPuzzle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChecksumTest_calculateChecksumPuzzle - 2017.12.02 at 13h 59m 56s.xml">
+      <configuration name="ChecksumTest.calculateChecksumPuzzle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InverseCaptchaTest - 2017.12.02 at 13h 19m 26s.xml">
       <configuration name="InverseCaptchaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InverseCaptchaTest - 2017.12.01 at 17h 39m 07s.xml">
+    <history-entry file="InverseCaptchaTest - 2017.12.02 at 13h 19m 46s.xml">
       <configuration name="InverseCaptchaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InverseCaptchaTest_solveCaptchaCircular1212 - 2017.12.01 at 17h 35m 49s.xml">
-      <configuration name="InverseCaptchaTest.solveCaptchaCircular1212" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InverseCaptchaTest_solveCaptchaCircular1212 - 2017.12.01 at 17h 35m 59s.xml">
-      <configuration name="InverseCaptchaTest.solveCaptchaCircular1212" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InverseCaptchaTest_solveCaptchaCircular1212 - 2017.12.01 at 17h 37m 27s.xml">
-      <configuration name="InverseCaptchaTest.solveCaptchaCircular1212" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InverseCaptchaTest_solveCaptchaCircular1212 - 2017.12.01 at 17h 37m 52s.xml">
-      <configuration name="InverseCaptchaTest.solveCaptchaCircular1212" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InverseCaptchaTest_solveCaptchaCircular1212 - 2017.12.01 at 17h 38m 15s.xml">
-      <configuration name="InverseCaptchaTest.solveCaptchaCircular1212" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InverseCaptchaTest_solveCaptchaCircular1212 - 2017.12.01 at 17h 38m 49s.xml">
-      <configuration name="InverseCaptchaTest.solveCaptchaCircular1212" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InverseCaptchaTest_solveCaptchaCircular1212 - 2017.12.01 at 17h 38m 58s.xml">
-      <configuration name="InverseCaptchaTest.solveCaptchaCircular1212" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InverseCaptchaTest_solveCaptchaCircularPuzzle - 2017.12.01 at 17h 41m 01s.xml">
-      <configuration name="InverseCaptchaTest.solveCaptchaCircularPuzzle" configurationId="JUnit" />
+    <history-entry file="InverseCaptchaTest - 2017.12.02 at 13h 20m 33s.xml">
+      <configuration name="InverseCaptchaTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6094000" />
+    <option name="totallyTimeSpent" value="9305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284839" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3300153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -452,7 +537,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39663094" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39356816" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -474,11 +559,37 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/InverseCaptchaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/InverseCaptcha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -547,26 +658,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/InverseCaptcha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="80" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/InverseCaptchaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+        <state relative-caret-position="-335">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InverseCaptcha.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ChecksumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="187">
+          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Checksum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -623,7 +750,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>AdventOfCode</last-edited>
+          <last-edited>AdventOfCode2017</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -648,6 +775,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
