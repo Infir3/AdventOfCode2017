@@ -16,23 +16,14 @@ public class ChecksumTest {
 
     @Test
     public void calculateChecksum() throws Exception {
-        List<String> input = new ArrayList<>();
-        input.add("5195");
-        input.add("753");
-        input.add("2468");
-        assertEquals(18, checksum.calculateChecksum(input));
+        List<ChecksumLine> checksumLines = checksum.parseFile("C:/Users/Stefan/git/AdventOfCode2017/src/test/java/checksum_sample.txt");
+        assertEquals(18, checksum.calculateChecksum(checksumLines));
     }
 
     @Test
     public void calculateChecksumPuzzle() throws Exception {
-        List<String> input = new ArrayList<>();
-        File file = new File("checksum_puzzle.txt");
-
-        Files.lines(Paths.get("C:/Users/Stefan/git/AdventOfCode2017/src/test/java/checksum_puzzle.txt")).forEach(line -> {
-            input.add(line);
-        });
-        System.out.println(checksum.calculateChecksum(input));
-//        assertEquals(18, checksum.calculateChecksum(input));
+        List<ChecksumLine> checksumLines = checksum.parseFile("C:/Users/Stefan/git/AdventOfCode2017/src/test/java/checksum_puzzle.txt");
+        System.out.println(checksum.calculateChecksum(checksumLines));
     }
 
 }
