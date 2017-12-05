@@ -41,4 +41,29 @@ public class Checksum {
 
         return checksum;
     }
+
+    public int calculateChecksumModulo(List<ChecksumLine> checksumLines) {
+
+        int checksum = 0;
+
+        for (ChecksumLine line : checksumLines) {
+            checksum += this.getRowChecksumModulo(line.getNumbers());
+        }
+
+        return checksum;
+    }
+
+    private int getRowChecksumModulo(List<Integer> numbers) {
+        for (Integer number : numbers) {
+            for (Integer number2 : numbers) {
+                if (number2.intValue() != number.intValue()) {
+                    if (number2 % number == 0) {
+                        return number2 / number;
+                    }
+                }
+            }
+        }
+        return 0;
+    }
+
 }
